@@ -3,7 +3,7 @@ name: Higher Workflow
 on:
   workflow_dispatch:
 
-jobs:
+jobs: 
   terraform:
     name: Terraform CI/CD
     runs-on: ubuntu-latest
