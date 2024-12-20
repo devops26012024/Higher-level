@@ -2,7 +2,7 @@ module "infra" {
   source = "./terraform-modules/higher-level"
 
   vpc_cidr_block       = "10.0.0.0/16"
-  ami_id               = "ami-12345678"
+  ami_id               = "ami-053b12d3152c0cc71"
   instance_type        = "t2.micro"
   ec2_subnet_id        = "subnet-abc123"
   key_name             = "my-key-pair"
