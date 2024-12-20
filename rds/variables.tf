@@ -1,27 +1,27 @@
-variable "allocated_storage" {
+variable "rds_allocated_storage" {
   type = number
 }
 
-variable "engine" {
+variable "rds_engine" {
   type = string
 }
 
-variable "instance_class" {
+variable "rds_instance_class" {
   type = string
 }
 
-variable "db_name" {
+variable "rds_db_name" {
   type = string
 }
 
-variable "username" {
+variable "rds_username" {
   type = string
 }
 
-variable "password" {
+variable "rds_password" {
   type = string
 }
 
-variable "db_subnet_group" {
+variable "rds_db_subnet_group" {
   type = string
 }
