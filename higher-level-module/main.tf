@@ -1,14 +1,14 @@
 module "vpc" {
   source      = "../VPC"
-  cidr_block  = var.vpc_cidr_block
+  #cidr_block  = var.vpc_cidr_block
 }
 
 module "ec2" {
   source        = "../ec2"
-  ami_id        = var.ami_id
-  instance_type = var.instance_type
-  subnet_id     = var.ec2_subnet_id
-  key_name      = var.key_name
+  #ami_id        = var.ami_id
+  #instance_type = var.instance_type
+  #subnet_id     = var.ec2_subnet_id
+  #key_name      = var.key_name
 }
 
 module "rds" {
