@@ -1,5 +1,5 @@
 module "infra" {
-  source = "./Higher-level/higher-level-module"
+  source = "./higher-level-module"
 
   vpc_cidr_block       = "10.0.0.0/16"
   ami_id               = "ami-053b12d3152c0cc71"
