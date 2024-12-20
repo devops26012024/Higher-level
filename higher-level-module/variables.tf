@@ -10,9 +10,7 @@ variable "ami_id" {
 variable "instance_type" {
   type = string
 }
-variable "ec2_subnet_id" {
-  type = string
-}
+
 variable "key_name" {
   type = string
 }
